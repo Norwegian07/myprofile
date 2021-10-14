@@ -1,0 +1,34 @@
+body{
+    width: 90%;
+    margin: auto;
+}
+
+
+header{
+    background-image: url(https://dm2306files.storage.live.com/y4mhQ_HbB4T71jin5TdEx9h5QqfnK5exHD46Zuy-FxuL7H2QppVM5ZxrrNS3zgtZoB7DzeXUAeh0fHjtS2eOBHH7nXHE-kZ1ikVJTqStvprLA0vL_aszMkZ52n6VwS0CMWXFggXDKJy6O51BgIyj1DgolqB4GEORYNBW8Qp6vNMXqqamgAetmDa8XnC7-HSmQTU?width=1024&height=683&cropmode=none);
+}
+/* HEADER */
+/* NAV */
+li{
+    display: inline;
+    padding: 10px;
+    
+}
+ul{
+    text-align: center;
+}
+a{
+    color: white;
+    display: inline;
+}
+h1{
+color: white;
+font: 36px;
+margin: 10%;
+}
+h2{
+    color: grey;
+}
+h1,h2{
+    text-align: center;
+}
