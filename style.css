@@ -61,7 +61,7 @@ p.mail{
 /* section_about_end */
 /* ========================================================= */
 /* SECTION RESUME */
-#resume{
+#skills{
     background-color: darkgrey;
 }
 h2.resume{
@@ -97,7 +97,8 @@ font-size: 36px;
     text-align: left;
 }
 h2.contact{
-    color: darkslategray;
+    color: yellowgreen;
+    padding-left: 10px;
 }
 a.location,a.email,a.call{
     font-weight: lighter;
@@ -123,4 +124,7 @@ a.location,a.email,a.call{
 footer{
     color: white;
     text-align: center;
+}
+a.call{
+    padding-bottom: 50px;
 }
