@@ -1,18 +1,28 @@
 body{
     width: 90%;
     margin: auto;
+    background-color: black;
 }
 
 
-header{
-    background-image: url(https://dm2306files.storage.live.com/y4mhQ_HbB4T71jin5TdEx9h5QqfnK5exHD46Zuy-FxuL7H2QppVM5ZxrrNS3zgtZoB7DzeXUAeh0fHjtS2eOBHH7nXHE-kZ1ikVJTqStvprLA0vL_aszMkZ52n6VwS0CMWXFggXDKJy6O51BgIyj1DgolqB4GEORYNBW8Qp6vNMXqqamgAetmDa8XnC7-HSmQTU?width=1024&height=683&cropmode=none);
-}
+
 /* HEADER */
+header {
+    position: relative;
+    height: 800px;
+    min-height: 500px;
+    width: 100%;
+    background: #161415 url( https://dm2306files.storage.live.com/y4mhQ_HbB4T71jin5TdEx9h5QqfnK5exHD46Zuy-FxuL7H2QppVM5ZxrrNS3zgtZoB7DzeXUAeh0fHjtS2eOBHH7nXHE-kZ1ikVJTqStvprLA0vL_aszMkZ52n6VwS0CMWXFggXDKJy6O51BgIyj1DgolqB4GEORYNBW8Qp6vNMXqqamgAetmDa8XnC7-HSmQTU?width=1024&height=683&cropmode=none) no-repeat top center;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+}
 /* NAV */
 li{
     display: inline;
     padding: 10px;
-    
+    font-size: 20px;
 }
 ul{
     text-align: center;
@@ -23,12 +33,92 @@ a{
 }
 h1{
 color: white;
-font: 36px;
+font-size: 81.8px;
 margin: 10%;
 }
 h2{
-    color: grey;
+    color: gainsboro;
 }
 h1,h2{
+    text-align: center;
+}
+/* =================================================== */
+/* SECTION START */
+/* SECTION ABOUT */
+#about{
+    background-color: lightslategray;
+}
+h2.about,p.about,h3.about,p.mail{
+    text-align: center;
+}
+h2.about,p.mail{
+    font-size: 36px;
+}
+p.about,h3.about,p.mail{
+      font-size: 20px;
+}
+p.mail{
+    padding-bottom: 15px;
+}
+/* section_about_end */
+/* ========================================================= */
+/* SECTION RESUME */
+#resume{
+    background-color: darkgrey;
+}
+h2.resume{
+color: white;
+font-size: 36px;
+}
+#html,#css,#javascript{
+    width: 600px;
+    height: 100px;
+}
+.resume{
+    color: white;
+    font-size: 26px;
+    text-align: center;
+}
+/* ================================================ */
+/* section__contact */
+#contact{
+    background: url(https://dm2306files.storage.live.com/y4mAIZgkfsJx8MDhCYTj4R13ehigTCE2qFqzHdT7lG9a49euONasiqGEUGaYhvCQfQxNFYwGS_6hRFvhd97H5fZk_stuhMcFnV-hyrOg4Z-O6RsHsTwM-gZCh3AeVddGrHhtdMCgvolcHlz76oTRTxh335BnsFYEjF7qG8dt740L1p39gxs81suak9iyGyNi5EN?width=660&height=440&cropmode=none) no-repeat top center;
+  position: relative;
+    height: 300px;
+    min-height: 200px;
+    width: 100%;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 10%;
+}
+.contact{
+    text-align: left;
+}
+h2.contact{
+    color: darkslategray;
+}
+a.location,a.email,a.call{
+    font-weight: lighter;
+    font-size: 16px;
+    color: lightblue;
+    text-decoration: none;
+}
+/* ==================================================================== */
+/* upppppp */
+/* FOOTER */
+.upp{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+::before,::after{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+footer{
+    color: white;
     text-align: center;
 }
