@@ -47,12 +47,10 @@ h1,h2{
 /* SECTION ABOUT */
 #about{
     background-color: lightslategray;
-}
-h2.about,p.about,h3.about,p.mail{
-    text-align: center;
+    padding-left: 10px;
 }
 h2.about,p.mail{
-    font-size: 36px;
+    font-size: 30px;
 }
 p.about,h3.about,p.mail{
       font-size: 20px;
@@ -71,8 +69,10 @@ color: white;
 font-size: 36px;
 }
 #html,#css,#javascript{
-    width: 600px;
-    height: 100px;
+    max-width: 600px;
+    min-width: 300px;
+    max-height: 100px;
+    max-height: 50px;
 }
 .resume{
     color: white;
@@ -109,8 +109,10 @@ a.location,a.email,a.call{
 /* upppppp */
 /* FOOTER */
 .upp{
-    width: 40px;
-    height: 40px;
+    max-width: 80px;
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 80px;
     text-align: center;
 }
 ::before,::after{
