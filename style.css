@@ -9,8 +9,8 @@ body{
 /* HEADER */
 header {
     position: relative;
-    height: 800px;
-    min-height: 500px;
+    max-height: 800px;
+    min-height: 700px;
     width: 100%;
     background: #161415 url( https://dm2306files.storage.live.com/y4mhQ_HbB4T71jin5TdEx9h5QqfnK5exHD46Zuy-FxuL7H2QppVM5ZxrrNS3zgtZoB7DzeXUAeh0fHjtS2eOBHH7nXHE-kZ1ikVJTqStvprLA0vL_aszMkZ52n6VwS0CMWXFggXDKJy6O51BgIyj1DgolqB4GEORYNBW8Qp6vNMXqqamgAetmDa8XnC7-HSmQTU?width=1024&height=683&cropmode=none) no-repeat top center;
     background-size: cover !important;
